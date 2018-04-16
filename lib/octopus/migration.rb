@@ -189,7 +189,7 @@ module Octopus
   end
 end
 
-ActiveRecord::Migration.send(:include, Octopus::Migration)
-ActiveRecord::Migrator.send(:include, Octopus::Migrator)
-ActiveRecord::MigrationProxy.send(:include, Octopus::MigrationProxy)
-ActiveRecord::UnknownMigrationVersionError.send(:include, Octopus::UnknownMigrationVersionError)
+# ActiveRecord::Migration.send(:include, Octopus::Migration)
+# ActiveRecord::Migrator.send(:include, Octopus::Migrator)
+# ActiveRecord::MigrationProxy.send(:include, Octopus::MigrationProxy)
+# ActiveRecord::UnknownMigrationVersionError.send(:include, Octopus::UnknownMigrationVersionError)
